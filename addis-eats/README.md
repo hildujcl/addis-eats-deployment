@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Addis Eats ♡
 
-## Getting Started
+**Addis Eats** is a responsive food-ordering web application built with Next.js. It allows users to explore Ethiopian dishes, browse the menu, add meals to their cart, manage quantities, and complete a demo checkout through a simple and user-friendly interface.
 
-First, run the development server:
+## ✨ Features
+
+- **Home Page:** Welcoming landing page introducing Addis Eats.
+- **Food Menu:** Browse Ethiopian meals with descriptions, prices, and images.
+- **Menu Search:** Search and filter dishes by category.
+- **Shopping Cart:** Add meals, remove items, and update quantities.
+- **Cart Persistence:** Save cart information using browser localStorage.
+- **Checkout:** Enter customer and delivery details through a demo checkout form.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Navigation:** Easy access to Home, Menu, Cart, and Checkout pages.
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS / Custom CSS
+- HTML5
+- Browser localStorage
+
+## 📁 Project Structure
+
+```text
+addis-eats/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── globals.css
+│   ├── about/
+│   ├── menu/
+│   ├── cart/
+│   └── checkout/
+├── components/
+│   ├── Header.js
+│   ├── CartProvider.js
+│   ├── MenuClient.js
+│   ├── DishCard.js
+│   └── OrderForm.js
+├── lib/
+│   └── menu.js
+├── public/
+│   └── images/
+├── AGENTS.md
+├── README.md
+└── package.json
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+https://github.com/hildujcl/addis-eats-deployment
+```
+
+### 2. Navigate into the project
+
+```bash
+cd addis-eats
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 🛒 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. Browse the available Ethiopian dishes.
+2. Search for meals or select a category.
+3. Add your favorite meals to the cart.
+4. Adjust quantities or remove items.
+5. Continue to checkout.
+6. Enter the requested customer and delivery information.
+7. Submit the demo order.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Addis Eats uses a soft pink, cream, and white color palette to create a welcoming food-ordering experience. Its responsive layout and simple navigation make browsing and ordering easy.
 
-## Deploy on Vercel
+## ⚠️ Project Limitations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Cart information is stored in browser localStorage.
+- Checkout is a demonstration flow.
+- No real payment is processed.
+- No production backend or database is connected.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Future Improvements
+
+- Backend integration and database storage.
+- Real order management and tracking.
+- Secure user authentication.
+- Payment gateway integration.
+- Admin dashboard for managing menu items and orders.
+
+## 👩‍💻 Author
+
+Developed as a web development project using Next.js and React.
+
+---
+
+**Addis Eats ♡ — Delicious Ethiopian flavors, made with love.**
