@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Addis Eats ♡
 
 **Addis Eats** is a responsive food-ordering web application built with Next.js. It allows users to explore Ethiopian dishes, browse the menu, add meals to their cart, manage quantities, and complete a demo checkout through a simple and user-friendly interface.
@@ -24,7 +23,9 @@
 - Browser localStorage
 
 ## 📁 Project Structure
+
 =======
+
 # ♡ Addis Eats — Ethiopian Food Ordering App
 
 **Discover the taste of Ethiopia, one delicious meal at a time!**
@@ -44,7 +45,7 @@ Addis Eats is a modern, responsive food-ordering web application built with Next
 ## 🛠️ Built With
 
 | Technology | Purpose |
-|---|---|
+
 | Next.js | Application framework and routing |
 | React | Interactive user interface |
 | JavaScript | Application functionality |
@@ -69,34 +70,28 @@ Addis Eats features a warm visual identity inspired by a welcoming dining experi
 
    bash
    https://github.com/hildujcl/addis-eats-deployment
-   
 
 2. Navigate to the project directory:
 
    bash
    cd addis-eats
-   
 
 3. Install dependencies:
 
    bash
    npm install
-   
 
 4. Start the development server:
 
    bash
    npm run dev
-   
 
 5. Open your browser at:
 
    text
    http://localhost:3000
-   
 
 ## 📂 Project Structure
->>>>>>> ff6090ae12f6d92bcc0379ee3a4304403f237083
 
 ```text
 addis-eats/
@@ -123,13 +118,14 @@ addis-eats/
 ├── components/
 ├── lib/
 ├── public/
->>>>>>> ff6090ae12f6d92bcc0379ee3a4304403f237083
+
 ├── AGENTS.md
 ├── README.md
 └── package.json
 ```
 
 <<<<<<< HEAD
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
@@ -199,8 +195,8 @@ Developed as a web development project using Next.js and React.
 
 ---
 
-**Addis Eats ♡ — Delicious Ethiopian flavors, made with love.**
-=======
+# **Addis Eats ♡ — Delicious Ethiopian flavors, made with love.**
+
 ## 🔮 Future Enhancements
 
 - Backend and database integration.
@@ -213,9 +209,14 @@ Developed as a web development project using Next.js and React.
 
 This version uses browser localStorage for cart persistence and a demonstration checkout flow. It does not process real payments or connect to a production order-management backend.
 
+## live website
+
+https://addis-eats-deployment-aayd.vercel.app
+
 ## 👩‍💻 Project
 
 Developed using Next.js, React, and JavaScript.
 
 **Addis Eats ♡ — Bringing Ethiopian flavors closer to you.**
->>>>>>> ff6090ae12f6d92bcc0379ee3a4304403f237083
+
+> > > > > > > ff6090ae12f6d92bcc0379ee3a4304403f237083
