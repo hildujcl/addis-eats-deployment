@@ -24,7 +24,7 @@
 
 ## 📁 Project Structure
 
-=======
+
 
 # ♡ Addis Eats — Ethiopian Food Ordering App
 
@@ -91,74 +91,39 @@ Addis Eats features a warm visual identity inspired by a welcoming dining experi
    text
    http://localhost:3000
 
-## 📂 Project Structure
-
-```text
-addis-eats/
-├── app/
-<<<<<<< HEAD
-│   ├── layout.js
-│   ├── page.js
-│   ├── globals.css
-│   ├── about/
-│   ├── menu/
-│   ├── cart/
-│   └── checkout/
-├── components/
-│   ├── Header.js
-│   ├── CartProvider.js
-│   ├── MenuClient.js
-│   ├── DishCard.js
-│   └── OrderForm.js
-├── lib/
-│   └── menu.js
-├── public/
-│   └── images/
-=======
-├── components/
-├── lib/
-├── public/
-
-├── AGENTS.md
-├── README.md
-└── package.json
-```
-
-<<<<<<< HEAD
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 
-```bash
+bash
 https://github.com/hildujcl/addis-eats-deployment
-```
+
 
 ### 2. Navigate into the project
 
-```bash
+bash
 cd addis-eats
-```
+
 
 ### 3. Install dependencies
 
-```bash
+bash
 npm install
-```
+
 
 ### 4. Start the development server
 
-```bash
+bash
 npm run dev
-```
+
 
 ### 5. Open the application
 
 Visit:
 
-```text
+text
 http://localhost:3000
-```
+
 
 ## 🛒 How It Works
 
@@ -193,7 +158,7 @@ Addis Eats uses a soft pink, cream, and white color palette to create a welcomin
 
 Developed as a web development project using Next.js and React.
 
----
+
 
 # **Addis Eats ♡ — Delicious Ethiopian flavors, made with love.**
 
@@ -219,4 +184,4 @@ Developed using Next.js, React, and JavaScript.
 
 **Addis Eats ♡ — Bringing Ethiopian flavors closer to you.**
 
-> > > > > > > ff6090ae12f6d92bcc0379ee3a4304403f237083
+
